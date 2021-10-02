@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Work</title>
+</head>
+
+<body>
+    <div class="work-page">
+
+
+        <nav class="navbar">
+            <ul>
+                <li class="nav-list"><a href="home.html" class="navlink">Home</a></li>
+                <li class="nav-list"><a href="aboutme.html" class="navlink">About me</a></li>
+                <li class="nav-list"><a href="work.html" class="navlink">Work</a></li>
+                <li class="nav-list"><a href="contact.html" class="navlink">Contact me</a></li>
+            </ul>
+        </nav>
+        <hr>
+
+        <div class="work">
+            <div class="details">
+                <div class="details-details">
+                    <ul>
+                        <li>Modelling and simulation of crank slider mechanism using Catia V5 and its
+                            fabrication.<br><br></li>
+                    </ul>
+                </div>
+                <div class="details-details">
+                    <ul>
+                        <li>Fabrication and Erection of mounded Bullet project at HMEL Refinery and IOCL
+                            Ajmer.<br><br></li>
+                    </ul>
+                </div>
+                <div class="details-details">
+                    <ul>
+                        <li>Trainer of Catia V5 in one of the reputed Institute.<br><br></li>
+                    </ul>
+                </div>
+                <div class="details-details">
+                    <ul>
+                        <li>Site Engineer for fabrication site.<br><br></li>
+                    </ul>
+
+                </div>
+                <div class="details-details">
+                    <ul>
+                        <li>Provider of Design Solution as a freelancer using following module in Catia V5:
+                            <ul>
+                                <li>Part modelling</li>
+                                <li>Drafting</li>
+                                <li>Surface</li>
+                                <li>Sheet metal Designing</li>
+                                <li>FTA</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv">
+                <img src="pics/cv.jpg" alt="cv" id="cv-img">
+                <br>
+                <button id="view-cv">View CV</button>
+                <button><a href="cv/cv-nknew1.pdf" download="CV">Download CV</a></button>
+            </div>
+        </div>
+        <footer class="footer">
+            <hr id="footer-hr">
+            <p>Nadeem Ahmad Khan. &copy All rights reserved.</p>
+        </footer>
+    </div>
+
+    <div class="cv-img">
+            <img src="pics/cv.jpg" alt="">
+            <img src="pics/cv2.jpg" alt="">
+        </div>
+    </div>
+
+
+    <script src="website.js"></script>
+    <script>
+
+        let navlink = document.querySelectorAll('.navlink');
+        let work = document.querySelector('.work-page')
+        let cvbtn = document.querySelector('#view-cv');
+        let cvimg = document.querySelector('#cv-img');
+        let cvdiv = document.querySelector('.cv-img');
+        let cvimages = document.querySelectorAll('.cv-img img');
+
+        cvimg.addEventListener('click', () => {
+            work.style.display = 'none';
+            cvdiv.style.display = 'block';
+            cvimages.forEach(img => {
+                img.addEventListener('click', () => {
+                    cvdiv.style.display = 'none';
+                    work.style.display = 'block';
+                });
+                img.style.width = '450px';
+                img.style.margin = '15px';
+            });
+        });
+
+        cvbtn.addEventListener('click', () => {
+            work.style.display = 'none';
+            cvdiv.style.display = 'block';
+            cvimages.forEach(img => {
+                img.addEventListener('click', () => {
+                    cvdiv.style.display = 'none';
+                    work.style.display = 'block';
+                });
+                img.style.width = '450px';
+                img.style.margin = '15px';
+                // img.style.
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
