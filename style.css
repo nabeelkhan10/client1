@@ -287,6 +287,7 @@ hr {
     width: 36px;
 }
 
+
 #name{
     top: 81px;
 }
@@ -434,7 +435,7 @@ hr {
 
 /* responsive  */
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 900px) and (min-width: 360px) {
     .navbar, .navbar ul{
         position: static;
     }
@@ -444,8 +445,9 @@ hr {
     }
 
     .navlink{
-        font-size: 14px;
-        font-family: 'm'
+        font-size: 16px;
+
+        font-family: 'maven pro'
     }
 
     /* home  */
@@ -549,9 +551,8 @@ hr {
     }
     
     
-    
-
     /* home ends */
+
 
     /* contact  */
 
@@ -581,6 +582,7 @@ hr {
     
 
     /* work  */
+
     .work-page{
         height: auto;
     }
@@ -614,6 +616,7 @@ hr {
     }
 
     /* work ends */
+
 
     /* about me  */
 
@@ -649,7 +652,12 @@ hr {
     /* about me ends */
 
     hr{
-        width: 0px;
+        width: 100%;
+        right: -3px;
+    }
+
+    .footer {
+        bottom: 0px;
     }
 
     #footer-hr{
