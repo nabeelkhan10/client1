@@ -51,8 +51,8 @@
 
 .nav-list a{
     /* background-color: red; */
-    color: black;
     font-weight: bold;
+    color: black;
     border-radius: 5px;
     text-decoration: none;
     padding: 5px 10px;
@@ -436,7 +436,7 @@ hr {
 
 /* responsive  */
 
-@media only screen and (max-width: 900px) and (min-width: 360px) {
+@media only screen and (max-width: 900px) and (min-width: 375px) {
     .navbar, .navbar ul{
         position: static;
     }
@@ -659,6 +659,242 @@ hr {
 
     .footer {
         bottom: 0px;
+    }
+
+    #footer-hr{
+        width: 100%;
+        right: 0px;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    .navbar, .navbar ul{
+        position: static;
+    }
+
+    .navbar ul{
+        width: 100%;
+    }
+
+    .navlink{
+        font-size: 16px;
+
+        font-family: 'maven pro'
+    }
+
+    /* home  */
+
+    .headings{
+        width: 100vw;
+        margin-top: 78px;
+        left: 0px;
+    }
+
+    #text6 {
+        position: absolute;
+        transform: rotate( 
+    90deg);
+        bottom: 135px;
+        right: -62px;
+        font-size: 33px;
+        color: var(--voilet);
+    }
+
+    #text7 {
+        position: absolute;
+        top: 275px;
+        left: 37px;
+        font-size: 41px;
+        color: red;
+    }
+
+    #text11 {
+        position: absolute;
+        bottom: 170px;
+        left: 17px;
+        color: var(--grey);
+    }
+    #text9 {
+        position: absolute;
+        bottom: 131px;
+        left: 145px;
+        font-size: 23px;
+        color: var(--purple);
+    }
+    #text14 {
+        position: absolute;
+        top: 20px;
+        right: 4px;
+        font-size: 20px;
+        color: var(--grey);
+    }
+    #text10 {
+        position: absolute;
+        top: 67px;
+        right: 14px;
+        font-size: 44px;
+        color: var(--green);
+    }
+    #text8 {
+        position: absolute;
+        top: 10px;
+        left: 1px;
+        color: var(--grey);
+    }
+    #text12 {
+        position: absolute;
+        transform: rotate( 
+    270deg);
+        top: 215px;
+        left: 23px;
+        color: purple;
+        font-size: 35px;
+        color: var(--purple);
+    }
+    #text5 {
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        color: var(--yellow);
+    }
+    #text4 {
+        position: absolute;
+        top: 50px;
+        left: 68px;
+        font-size: 21px;
+        color: var(--purple);
+    }
+    #text13 {
+        position: absolute;
+        transform: rotate(
+    270deg);
+        left: -24px;
+        top: 185px;
+        color: var(--orange);
+    }
+    #text1 {
+        position: absolute;
+        bottom: 206px;
+        left: 120px;
+        font-size: 41px;
+        color: var(--purple);
+    }
+    #text3 {
+        position: absolute;
+        top: 110px;
+        left: 49px;
+        font-size: 34px;
+        color: yellow;
+        color: var(--orange);
+    }
+    
+    /* home ends */
+
+
+    /* contact  */
+
+    .contact{
+        width: 100%;
+        /* text-align: center; */
+    }
+
+    .contact p{
+        /* position: relative; */
+        margin-bottom: 20px;
+        /* text-align: center; */
+    }
+
+    .contact span{
+        position: static;
+        text-align: center;
+    }
+
+    .contact img{
+        position: relative;
+        top: 10px;
+
+    }
+
+    /* contact ends  */
+    
+
+    /* work  */
+
+    .work-page{
+        height: auto;
+    }
+
+    .work{
+        flex-direction: column;
+        height: auto;
+        margin-top: 50px;
+        font-size: 20px;
+        position: static;
+        width: 100%;
+        /* justify-content: center;
+        align-items: center; */
+        /* justify-content: flex-start; */
+        /* align-items: flex-start; */
+    }
+
+    .work-page .footer{
+        position: absolute;
+        bottom: -479px;
+    }
+
+    .details{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cv{
+        position: static;
+        width: 100%;
+    }
+
+    /* work ends */
+
+
+    /* about me  */
+
+    .aboutme{
+        height: 90vh;
+        position: relative;
+        /* flex-direction: column; */
+        width: 100%;
+        margin: 0px;
+    }
+
+    .p-container{
+        position: absolute;
+    top: 280px;
+    right: 0px;
+    font-size: 18px;
+    padding: 0px 9px;
+    /* font-family: balibri; */
+    }
+
+    #image{
+        position: absolute;
+        border: none;
+    top: 124px;
+    right: 24%;
+    }
+
+    #aboutmefooter{
+        position: absolute;
+        bottom: -200px;
+    }
+
+    /* about me ends */
+
+    hr{
+        width: 100%;
+        right: -3px;
+    }
+
+    .footer {
+        bottom: -18px;
     }
 
     #footer-hr{
