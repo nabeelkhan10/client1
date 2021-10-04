@@ -659,6 +659,8 @@ hr {
     }
 
     .footer {
+        display: none;
+
         bottom: 0px;
     }
 
@@ -891,6 +893,8 @@ hr {
     }
 
     .footer {
+        display: none;
+
         bottom: 0px;
     }
 
@@ -1122,6 +1126,8 @@ hr {
     }
 
     .footer {
+        display: none;
+
         bottom: 0px;
     }
 
@@ -1354,6 +1360,8 @@ hr {
     }
 
     .footer {
+        display: none;
+
         bottom: 0px;
     }
 
@@ -1596,6 +1604,7 @@ hr {
     }
 
     .footer {
+        display: none;
         bottom: 0px;
     }
 
@@ -1838,6 +1847,7 @@ hr {
     }
 
     .footer {
+        display: none;
         bottom: 0px;
     }
 
