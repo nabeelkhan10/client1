@@ -340,7 +340,8 @@ hr {
 }
 
 .aboutme p{
-    font-family: Calibri;
+    font-family: 'open sans';
+    font-size: 13px;
 }
 
 #image{
@@ -634,7 +635,8 @@ hr {
         position: absolute;
     top: 280px;
     right: 0px;
-    font-size: 18px;
+    font-family: 'open sans';
+    font-size: 13px;
     padding: 0px 9px;
     /* font-family: balibri; */
     }
@@ -868,7 +870,8 @@ hr {
         position: absolute;
     top: 280px;
     right: 0px;
-    font-size: 18px;
+    font-family: 'open sans';
+    font-size: 13px;
     padding: 0px 9px;
     /* font-family: balibri; */
     }
@@ -1101,7 +1104,8 @@ hr {
         position: absolute;
     top: 268px;
     right: 0px;
-    font-size: 18px;
+    font-family: 'open sans';
+    font-size: 13px;
     padding: 0px 9px;
     /* font-family: balibri; */
     }
@@ -1335,7 +1339,8 @@ hr {
         position: absolute;
     top: 268px;
     right: 0px;
-    font-size: 18px;
+    font-family: 'open sans';
+    font-size: 13px;
     padding: 0px 9px;
     /* font-family: balibri; */
     }
@@ -1579,7 +1584,8 @@ hr {
         position: absolute;
     top: 268px;
     right: 0px;
-    font-size: 18px;
+    font-family: 'open sans';
+    font-size: 13px;
     padding: 0px 9px;
     /* font-family: balibri; */
     }
@@ -1822,7 +1828,8 @@ hr {
         position: absolute;
     top: 268px;
     right: 0px;
-    font-size: 18px;
+    font-family: 'open sans';
+    font-size: 13px;
     padding: 0px 9px;
     /* font-family: balibri; */
     }
