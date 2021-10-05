@@ -1855,7 +1855,7 @@ hr {
 
     .footer {
         display: none;
-        bottom: 0px;
+        bottom: 1px;
     }
 
     #footer-hr{
